@@ -7,11 +7,11 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
-title                    : "imagoodman-aa's Site"
+locale                   : "zh-CN"
+title                    : "宗绪泉的主页 (Xuquan Zong)"
 title_separator          : "-"
-name                     : &name "imagoodman-aa"
-description              : &description "My personal academic website"
+name                     : &name "宗绪泉 (Xuquan Zong)"
+description              : &description "NLP & LLM Researcher"
 url                      : https://imagoodman-aa.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "imagoodman-aa/imagoodman-aa.github.io"
@@ -22,13 +22,13 @@ repository               : "imagoodman-aa/imagoodman-aa.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "imagoodman-aa"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  name             : "宗绪泉 (Xuquan Zong)"
+  pronouns         : "he/him"
+  bio              : "北京语言大学硕士研究生 (Master Student at BLCU)<br>研究方向：NLP, LLM"
+  location         : "Beijing, China"
+  employer         : "Beijing Language and Culture University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "xq_zong@163.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile

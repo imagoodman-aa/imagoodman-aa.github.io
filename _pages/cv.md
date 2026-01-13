@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "简历 (CV)"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,56 +9,51 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+教育背景 (Education)
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+*   **北京语言大学 (Beijing Language and Culture University)**, 计算机科学与技术, 硕士 (Master)
+    *   2023.09 - 2026.06 (预计)
+*   **齐鲁工业大学 (Qilu University of Technology)**, 计算机科学与技术, 学士 (Bachelor)
+    *   2018.09 - 2022.06
 
-Work experience
+实习经历 (Internship Experience)
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+*   **北京⾯壁智能科技有限责任公司 (ModelBest)**, 算法实习生
+    *   2025.07 - 2025.09
+    *   **基于 Agent 的预训练数据自动质检与清洗**: 设计并实现了一个多 Agent 协作系统，自动生成并执行数据清洗脚本，实现大规模预训练数据的自动化清理。引入类似 Cursor 的任务清单机制，对清洗顺序进行排序与调度，有效降低误清理风险。解决了人工清洗低效、易误删的问题，实现了高效、可控且可扩展的大规模数据自动清洗。
+    *   **基于 LLM 的数据质量自动评估**: 开发了一个自动抽样与分批质检系统，基于 14 个评价维度对数据集进行质量标注，并自动生成综合质检报告。解决了人工质检报告耗时且缺乏客观性的问题，大幅提升了评估效率与一致性。通过分批质检，解决了由上下文过长导致的注意力分散问题。
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+*   **北京中科凡语科技有限公司 (Zhongke Fanyu)**, 算法实习生
+    *   2023.04 - 2023.08
+    *   **OCR模型的优化工作以及数据标注**: 参与数据合成任务，编写了数据合成脚本，基于PIL包控制文字大小和位置，合成多粒度的训练数据。独立探索适用于自然场景OCR任务的“渐进式数据增强”策略，通过逐步增强数据噪声强度，提升模型在复杂环境下识别性能。
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+科研经历 (Research Experience)
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+*   **CCL(中国计算语言学大会) 2025 中小学作文修辞评测任务（一作）**
+    *   2025.04 - 2025.05
+    *   **实现方法**: 针对段落级别的作文修辞分类任务以及修辞实体抽取任务，构建了一种以数据增强为核心、结合高效监督微调的多策略融合框架，并融合语句层面修辞识别与段落句间关系识别。
+    *   **竞赛结果**: 在三个赛道中，分别获得第二名。
+    *   **论文**: 《CCL25-Eval任务6系统报告:基于数据增强及大小模型协同的中小学作文修辞识别》
 
-Publications
+*   **BEA-2025 Pedagogical Ability Assessment of AI-powered Tutors（四作）**
+    *   2025.03 - 2025.04
+    *   **实现方法**: 分别使用了上下文学习、集成学习、监督微调、组相对策略优化（GRPO）等方法，在基于大型语言模型（LLM）的 AI 助教数学教学对话的评测任务上取得较高分数。
+    *   **竞赛结果**: 分别在三个独立赛道上取得了第一名、第三名、第五名。
+    *   **论文**: 《BLCU-ICALL at BEA 2025 Shared Task: Multi-Strategy Evaluation of AI Tutors》
+
+职责、荣誉与成果 (Honors & Achievements)
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+*   **助教工作**: 担任本科生课程《自然语言处理》《编译原理》、研究生课程《自然语言处理》助教。
+*   **技术支持**: 读研期间负责学院 HPC 集群搭建与维护。
+*   **奖学金**: 获得北京语言大学二等奖学金以及北京语言大学创新基金项目。
+*   **软件著作权**: 大规模汉语语料库检索平台 [简称：DCC]
+*   **国家专利**: 一种基于图像处理库PIL的多粒度OCR数据集生成方法和系统
+*   **国家专利**: 一种基于渐进式数据增强的OCR模型训练方法及系统
+
+技能 (Skills)
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+*   **编程语言**: Python
+*   **开发环境**: Linux (日常模型训练环境部署、脚本编写)
+*   **专业领域**: 自然语言处理 (NLP), 大模型 (LLM)
+*   **框架/模型**: Qwen, Llama 微调流程
+*   **语言能力**: 英语读写能力良好
