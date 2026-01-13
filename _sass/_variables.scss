@@ -6,7 +6,7 @@
    Typography
    ========================================================================== */
 
-$doc-font-size              : 16;
+$doc-font-size              : 15;
 
 /* paragraph indention */
 $paragraph-indent           : false; // true, false (default)
@@ -46,7 +46,7 @@ $type-size-8                : 0.625em;  // ~10px
 $masthead-height            : 70px;
 
 /* Sidebar properties */
-$sidebar-screen-min-width   : 1024px;
+$sidebar-screen-min-width   : 1100px;
 $sidebar-link-max-width     : 250px;
 
 
@@ -126,7 +126,7 @@ $small                      : 600px !default;
 $medium                     : 768px !default;
 $medium-wide                : 900px !default;
 $large                      : 1100px !default;
-$x-large                    : 1400px !default;
+$x-large                    : 1600px !default;
 
 /*
    Grid
